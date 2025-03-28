@@ -4,7 +4,7 @@ let queue = [];
 let data = null;
 
 const settings = {
-    viz: (el) => {
+    'viz': (el) => {
         let a = el.querySelector(".dataviz__title-container");
         let b = el.querySelector(".dataviz__chart-container");
         a && a.remove();
